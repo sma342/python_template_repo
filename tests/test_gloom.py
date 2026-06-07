@@ -1,6 +1,7 @@
 import unittest
 from logic.london_gloom import evaluate_vibe
 
+
 class TestLondonGloom(unittest.TestCase):
 
     def test_maximum_edgy_depression(self):
@@ -19,6 +20,7 @@ class TestLondonGloom(unittest.TestCase):
         """Testuje, czy słońce niszczy edgy klimat."""
         wynik = evaluate_vibe(weather="sunny days", tea_status="jest", pocket_money_pounds=5.0)
         self.assertIn("Obrzydliwe", wynik)
+
 
 if __name__ == "__main__":
     unittest.main()
