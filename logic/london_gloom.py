@@ -17,8 +17,7 @@ def evaluate_vibe(weather: str, tea_status: str, pocket_money_pounds: float) -> 
 
     if "sun" in weather:
         return (
-            "Słońce w Anglii? Obrzydliwe. To psuje cały gotycki klimat. "
-            "Schowaj się do piwnicy."
+            "Słońce w Anglii? Obrzydliwe. To psuje cały gotycki klimat. " "Schowaj się do piwnicy."
         )
 
     return (
